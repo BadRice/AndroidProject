@@ -49,25 +49,27 @@ containing a value of this type.
     public static final class id {
         public static final int any=0x7f050000;
         public static final int back=0x7f050001;
-        public static final int backbtn=0x7f050004;
-        public static final int chosePic=0x7f050003;
-        public static final int dtbutton=0x7f050007;
-        public static final int exit=0x7f050006;
-        public static final int fd_activity_surface_view=0x7f05000a;
+        public static final int backbtn=0x7f05000a;
+        public static final int detect=0x7f05000f;
+        public static final int dtbutton=0x7f050004;
+        public static final int exit=0x7f050003;
+        public static final int fd_activity_surface_view=0x7f050007;
         public static final int front=0x7f050002;
-        public static final int imgPic=0x7f050005;
-        public static final int importbutton=0x7f050009;
-        public static final int method=0x7f050008;
-        public static final int methodSeekBar=0x7f05000c;
-        public static final int seekbars=0x7f05000b;
-        public static final int switch1=0x7f05000d;
-        public static final int switch2=0x7f05000e;
+        public static final int imgShow=0x7f05000d;
+        public static final int importbutton=0x7f050006;
+        public static final int method=0x7f050005;
+        public static final int methodSeekBar=0x7f050009;
+        public static final int seekbars=0x7f050008;
+        public static final int selectPic=0x7f05000e;
+        public static final int switch1=0x7f05000b;
+        public static final int switch2=0x7f05000c;
+        public static final int textView=0x7f050010;
     }
     public static final class layout {
-        public static final int chose_photo=0x7f030000;
-        public static final int face_detect_surface_view1=0x7f030001;
-        public static final int face_detect_surface_view2=0x7f030002;
-        public static final int face_detect_surface_view3=0x7f030003;
+        public static final int face_detect_surface_view1=0x7f030000;
+        public static final int face_detect_surface_view2=0x7f030001;
+        public static final int face_detect_surface_view3=0x7f030002;
+        public static final int select_pic=0x7f030003;
     }
     public static final class raw {
         public static final int haarcascade_lefteye_2splits=0x7f040000;

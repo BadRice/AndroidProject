@@ -30,7 +30,7 @@
             android:screenOrientation="landscape" >
         </activity>
         <activity
-            android:name="ChosePic"
+            android:name="SelectPic"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" >
         </activity>
@@ -46,6 +46,7 @@
     <uses-sdk android:minSdkVersion="8" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-feature
         android:name="android.hardware.camera"

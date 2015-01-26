@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_alibuybutton"
+        android:text="Back" />
+
+    <ImageView
+        android:id="@+id/imgShow"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_above="@+id/selectPic"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_imageview"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/detect"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imgShow"
+        android:layout_toLeftOf="@+id/selectPic"
+        android:background="@drawable/bg_alibuybutton"
+        android:textSize="30sp"
+        android:text="人脸检测" />
+
+    <Button
+        android:id="@+id/selectPic"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imgShow"
+        android:layout_marginBottom="89dp"
+        android:background="@drawable/bg_alibuybutton"
+        android:text="选择图片"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="FaceCount:0" />
+
+</RelativeLayout>

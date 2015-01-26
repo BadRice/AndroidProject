@@ -1,5 +1,7 @@
 package org.opencv.samples.facedetect;
 
+import org.opencv.samples.facedetect.R;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -46,7 +48,7 @@ public class HomeActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent();
-				intent.setClass(HomeActivity.this, ChosePic.class);
+				intent.setClass(HomeActivity.this, SelectPic.class);
 				startActivity(intent);
 				HomeActivity.this.finish();
 			}
